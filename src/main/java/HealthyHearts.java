@@ -8,6 +8,6 @@ public class HealthyHearts {
         int maxHeartRate = 220 - age;
         int targetHeartRate = 50- (maxHeartRate * 85/100);
         System.out.println("Your maximum heart rate should be:" + " " + maxHeartRate);
-        System.out.println(" Your target HR Zone is:" + " "+ targetHeartRate);
+        System.out.println(" And your target HR Zone is:" + " "+ targetHeartRate);
     }
 }
