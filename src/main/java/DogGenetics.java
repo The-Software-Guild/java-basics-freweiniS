@@ -9,6 +9,8 @@ public class DogGenetics {
         String dogName = s.nextLine();
         System.out.println("Well then, I have this highly reliable report on " + " " +  dogName + ":");
         System.out.println(randomPercentage.nextInt(100) +"%" + "St. Bernard \n" + randomPercentage.nextInt(100) +"%" + "Chihuahua\n"
-        + randomPercentage.nextInt(100) + "%" +  "Dramatic RedNosed Asian Pug\n");
+        + randomPercentage.nextInt(100) + "%" +  "Dramatic RedNosed Asian Pug\n"
+                +randomPercentage.nextInt(100) + "%" + "Common Cur\n" +
+                randomPercentage.nextInt(100) + "%"+ "King Doberman");
     }
 }
